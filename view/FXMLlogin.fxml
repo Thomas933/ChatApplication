@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="381.0" prefWidth="467.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.FXMLDocumentController">
+  <children>
+    <TextField fx:id="login" layoutX="131.0" layoutY="130.0" />
+    <Label layoutX="61.0" layoutY="134.0" text="Jméno:" />
+    <Label layoutX="62.0" layoutY="177.0" text="Heslo: " />
+    <Button fx:id="log" layoutX="131.0" layoutY="212.0" mnemonicParsing="false" onAction="#handleLogAction" text="Příhlásit se" />
+    <PasswordField fx:id="password" layoutX="131.0" layoutY="173.0" />
+    <Label id="port" layoutX="62.0" layoutY="89.0" text="Místnost:" />
+    <Label fx:id="wrongLogin" layoutX="131.0" layoutY="267.0" prefHeight="22.0" prefWidth="187.0" visible="true" />
+      <TextField fx:id="room" layoutX="131.0" layoutY="84.0" />
+  </children>
+</AnchorPane>
